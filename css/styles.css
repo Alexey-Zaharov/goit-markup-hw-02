@@ -1,0 +1,237 @@
+/* -------------------------main page---------------------- */
+:root {
+  --maintext-color: #212121;
+  --text-color: #757575;
+  --mainbackground-color: #ffffff;
+  --background-color: #2f303a;
+  --secondarybackground-color: #f5f4fa;
+  --accent-color: #2196f3;
+  --btnhover-color: #188ce8;
+  --logo-color: #000000;
+  --basementlogo-color: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--maintext-color, black);
+  background-color: var(--mainbackground-color, white);
+}
+/* ------common------- */
+
+.list {
+  list-style: none;
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* ----------------header------------ */
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--logo-color, black);
+}
+
+.logo-web {
+  color: var(--accent-color, blue);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.heading .link {
+  color: var(--text-color, grey);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
+.heading .link:focus,
+.heading .link:hover {
+  color: var(--accent-color, blue);
+}
+
+.pagination .link {
+  color: var(--maintext-color, black);
+}
+
+.pagination .link.current {
+  color: var(--accent-color);
+}
+/* ---------main---------------- */
+
+/* ефективні рішення */
+
+.hero {
+  background-color: var(--background-color, black);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.btn {
+  font-family: inherit;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #ffffff;
+  background-color: var(--btnhover-color);
+}
+
+/* our benefits */
+
+.benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.benefits-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color, black);
+}
+
+/* what are we doing */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* ------ours team------- */
+
+.team {
+  background-color: var(--secondarybackground-color);
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.img-background {
+  background-color: var(--mainbackground-color);
+}
+
+/* --------------footer------------------------ */
+
+.basement {
+  background-color: var(--background-color, black);
+}
+
+.basement-logo {
+  text-decoration: none;
+  color: var(--basementlogo-color, white);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.basementlogo-web {
+  color: var(--accent-color, blue);
+}
+
+.basement-list {
+  list-style: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.contacts {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.basement-list .link:hover,
+.basement-list .link:focus {
+  color: var(--accent-color, blue);
+}
+
+.basement-list .contacts > .link {
+  color: #ffffff;
+}
+
+.basement-list .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ------porfolio page--------- */
+
+.presentation-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--maintext-color, black);
+  background-color: var(--secondarybackground-color, grey);
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-text {
+  color: var(--text-color, gray);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+
+.project-title-lab {
+  text-transform: uppercase;
+}
